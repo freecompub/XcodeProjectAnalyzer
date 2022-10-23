@@ -8,6 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		2626BD232903D064001F1B0A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD222903D064001F1B0A /* main.swift */; };
+		2626BD2B2903F3D7001F1B0A /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD2A2903F3D7001F1B0A /* Root.swift */; };
+		2626BD2D2903F520001F1B0A /* PBXAggregateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD2C2903F520001F1B0A /* PBXAggregateTarget.swift */; };
+		2626BD2F29051ECB001F1B0A /* PBXBuildFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD2E29051ECB001F1B0A /* PBXBuildFile.swift */; };
+		2626BD3129051EE6001F1B0A /* PBXBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3029051EE6001F1B0A /* PBXBuildPhase.swift */; };
+		2626BD3329051F07001F1B0A /* PBXAppleScriptBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3229051F07001F1B0A /* PBXAppleScriptBuildPhase.swift */; };
+		2626BD3529051F20001F1B0A /* PBXCopyFilesBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3429051F20001F1B0A /* PBXCopyFilesBuildPhase.swift */; };
+		2626BD3729051F40001F1B0A /* PBXFrameworksBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3629051F40001F1B0A /* PBXFrameworksBuildPhase.swift */; };
+		2626BD3929051F6C001F1B0A /* PBXHeadersBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3829051F6C001F1B0A /* PBXHeadersBuildPhase.swift */; };
+		2626BD3B29051F86001F1B0A /* PBXResourcesBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3A29051F86001F1B0A /* PBXResourcesBuildPhase.swift */; };
+		2626BD3D29051FA3001F1B0A /* PBXShellScriptBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3C29051FA3001F1B0A /* PBXShellScriptBuildPhase.swift */; };
+		2626BD3F29051FE4001F1B0A /* PBXSourcesBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD3E29051FE4001F1B0A /* PBXSourcesBuildPhase.swift */; };
+		2626BD4129052032001F1B0A /* PBXContainerItemProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD4029052032001F1B0A /* PBXContainerItemProxy.swift */; };
+		2626BD4329052054001F1B0A /* PBXFileElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD4229052054001F1B0A /* PBXFileElement.swift */; };
+		2626BD4529052080001F1B0A /* PBXFileReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD4429052080001F1B0A /* PBXFileReference.swift */; };
+		2626BD472905209E001F1B0A /* PBXGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD462905209E001F1B0A /* PBXGroup.swift */; };
+		2626BD49290520F5001F1B0A /* PBXVariantGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD48290520F5001F1B0A /* PBXVariantGroup.swift */; };
+		2626BD4B29052112001F1B0A /* PBXTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD4A29052112001F1B0A /* PBXTarget.swift */; };
+		2626BD4D29052159001F1B0A /* PBXLegacyTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD4C29052159001F1B0A /* PBXLegacyTarget.swift */; };
+		2626BD4F290521C8001F1B0A /* PBXNativeTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD4E290521C8001F1B0A /* PBXNativeTarget.swift */; };
+		2626BD5129052271001F1B0A /* PBXProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD5029052271001F1B0A /* PBXProject.swift */; };
+		2626BD5329052288001F1B0A /* PBXTargetDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD5229052288001F1B0A /* PBXTargetDependency.swift */; };
+		2626BD5529052310001F1B0A /* XCBuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD5429052310001F1B0A /* XCBuildConfiguration.swift */; };
+		2626BD5729052327001F1B0A /* XCConfigurationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2626BD5629052327001F1B0A /* XCConfigurationList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +48,29 @@
 /* Begin PBXFileReference section */
 		2626BD1F2903D064001F1B0A /* XcodeProjectAnalyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeProjectAnalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
 		2626BD222903D064001F1B0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2626BD2A2903F3D7001F1B0A /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		2626BD2C2903F520001F1B0A /* PBXAggregateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXAggregateTarget.swift; sourceTree = "<group>"; };
+		2626BD2E29051ECB001F1B0A /* PBXBuildFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXBuildFile.swift; sourceTree = "<group>"; };
+		2626BD3029051EE6001F1B0A /* PBXBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3229051F07001F1B0A /* PBXAppleScriptBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXAppleScriptBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3429051F20001F1B0A /* PBXCopyFilesBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXCopyFilesBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3629051F40001F1B0A /* PBXFrameworksBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXFrameworksBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3829051F6C001F1B0A /* PBXHeadersBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXHeadersBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3A29051F86001F1B0A /* PBXResourcesBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXResourcesBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3C29051FA3001F1B0A /* PBXShellScriptBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXShellScriptBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD3E29051FE4001F1B0A /* PBXSourcesBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXSourcesBuildPhase.swift; sourceTree = "<group>"; };
+		2626BD4029052032001F1B0A /* PBXContainerItemProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXContainerItemProxy.swift; sourceTree = "<group>"; };
+		2626BD4229052054001F1B0A /* PBXFileElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXFileElement.swift; sourceTree = "<group>"; };
+		2626BD4429052080001F1B0A /* PBXFileReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXFileReference.swift; sourceTree = "<group>"; };
+		2626BD462905209E001F1B0A /* PBXGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXGroup.swift; sourceTree = "<group>"; };
+		2626BD48290520F5001F1B0A /* PBXVariantGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXVariantGroup.swift; sourceTree = "<group>"; };
+		2626BD4A29052112001F1B0A /* PBXTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXTarget.swift; sourceTree = "<group>"; };
+		2626BD4C29052159001F1B0A /* PBXLegacyTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXLegacyTarget.swift; sourceTree = "<group>"; };
+		2626BD4E290521C8001F1B0A /* PBXNativeTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXNativeTarget.swift; sourceTree = "<group>"; };
+		2626BD5029052271001F1B0A /* PBXProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXProject.swift; sourceTree = "<group>"; };
+		2626BD5229052288001F1B0A /* PBXTargetDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXTargetDependency.swift; sourceTree = "<group>"; };
+		2626BD5429052310001F1B0A /* XCBuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCBuildConfiguration.swift; sourceTree = "<group>"; };
+		2626BD5629052327001F1B0A /* XCConfigurationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCConfigurationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +103,40 @@
 		2626BD212903D064001F1B0A /* XcodeProjectAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				2626BD292903F3A2001F1B0A /* Model */,
 				2626BD222903D064001F1B0A /* main.swift */,
 			);
 			path = XcodeProjectAnalyzer;
+			sourceTree = "<group>";
+		};
+		2626BD292903F3A2001F1B0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2626BD2A2903F3D7001F1B0A /* Root.swift */,
+				2626BD2C2903F520001F1B0A /* PBXAggregateTarget.swift */,
+				2626BD2E29051ECB001F1B0A /* PBXBuildFile.swift */,
+				2626BD3029051EE6001F1B0A /* PBXBuildPhase.swift */,
+				2626BD3229051F07001F1B0A /* PBXAppleScriptBuildPhase.swift */,
+				2626BD3429051F20001F1B0A /* PBXCopyFilesBuildPhase.swift */,
+				2626BD3629051F40001F1B0A /* PBXFrameworksBuildPhase.swift */,
+				2626BD3829051F6C001F1B0A /* PBXHeadersBuildPhase.swift */,
+				2626BD3A29051F86001F1B0A /* PBXResourcesBuildPhase.swift */,
+				2626BD3C29051FA3001F1B0A /* PBXShellScriptBuildPhase.swift */,
+				2626BD3E29051FE4001F1B0A /* PBXSourcesBuildPhase.swift */,
+				2626BD4029052032001F1B0A /* PBXContainerItemProxy.swift */,
+				2626BD4229052054001F1B0A /* PBXFileElement.swift */,
+				2626BD4429052080001F1B0A /* PBXFileReference.swift */,
+				2626BD462905209E001F1B0A /* PBXGroup.swift */,
+				2626BD48290520F5001F1B0A /* PBXVariantGroup.swift */,
+				2626BD4A29052112001F1B0A /* PBXTarget.swift */,
+				2626BD4C29052159001F1B0A /* PBXLegacyTarget.swift */,
+				2626BD4E290521C8001F1B0A /* PBXNativeTarget.swift */,
+				2626BD5029052271001F1B0A /* PBXProject.swift */,
+				2626BD5229052288001F1B0A /* PBXTargetDependency.swift */,
+				2626BD5429052310001F1B0A /* XCBuildConfiguration.swift */,
+				2626BD5629052327001F1B0A /* XCConfigurationList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +197,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2626BD4F290521C8001F1B0A /* PBXNativeTarget.swift in Sources */,
+				2626BD472905209E001F1B0A /* PBXGroup.swift in Sources */,
+				2626BD4B29052112001F1B0A /* PBXTarget.swift in Sources */,
+				2626BD5129052271001F1B0A /* PBXProject.swift in Sources */,
+				2626BD3F29051FE4001F1B0A /* PBXSourcesBuildPhase.swift in Sources */,
+				2626BD2D2903F520001F1B0A /* PBXAggregateTarget.swift in Sources */,
+				2626BD5329052288001F1B0A /* PBXTargetDependency.swift in Sources */,
+				2626BD3D29051FA3001F1B0A /* PBXShellScriptBuildPhase.swift in Sources */,
 				2626BD232903D064001F1B0A /* main.swift in Sources */,
+				2626BD2B2903F3D7001F1B0A /* Root.swift in Sources */,
+				2626BD4D29052159001F1B0A /* PBXLegacyTarget.swift in Sources */,
+				2626BD5729052327001F1B0A /* XCConfigurationList.swift in Sources */,
+				2626BD4329052054001F1B0A /* PBXFileElement.swift in Sources */,
+				2626BD49290520F5001F1B0A /* PBXVariantGroup.swift in Sources */,
+				2626BD3929051F6C001F1B0A /* PBXHeadersBuildPhase.swift in Sources */,
+				2626BD3329051F07001F1B0A /* PBXAppleScriptBuildPhase.swift in Sources */,
+				2626BD3B29051F86001F1B0A /* PBXResourcesBuildPhase.swift in Sources */,
+				2626BD3729051F40001F1B0A /* PBXFrameworksBuildPhase.swift in Sources */,
+				2626BD4129052032001F1B0A /* PBXContainerItemProxy.swift in Sources */,
+				2626BD5529052310001F1B0A /* XCBuildConfiguration.swift in Sources */,
+				2626BD4529052080001F1B0A /* PBXFileReference.swift in Sources */,
+				2626BD2F29051ECB001F1B0A /* PBXBuildFile.swift in Sources */,
+				2626BD3529051F20001F1B0A /* PBXCopyFilesBuildPhase.swift in Sources */,
+				2626BD3129051EE6001F1B0A /* PBXBuildPhase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

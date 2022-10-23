@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class Root:Codable{
+    let archiveVersion:Int?
+    let classes:[String]?
+    let objectVersion:Int?
+    let objects:[String]?
+    let rootObject:String?
+}
