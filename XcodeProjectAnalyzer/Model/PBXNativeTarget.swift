@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PBXNativeTarget:Codable {
+class PBXNativeTarget:PBXTarget {
     
     //A 96 bits identifier
     let reference:UUID?

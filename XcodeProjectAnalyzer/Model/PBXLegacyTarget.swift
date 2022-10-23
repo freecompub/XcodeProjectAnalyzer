@@ -7,6 +7,6 @@
 
 import Foundation
 
-class PBXLegacyTarget:Codable {
+class PBXLegacyTarget:PBXTarget {
     
 }
